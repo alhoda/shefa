@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:scaleType="fitXY">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="شفاء الروح"
+        android:textColor="#ffffff"
+        android:textSize="30sp"></TextView>
+    <!--android:textColor="#404040"-->
+
+    <TextView
+        android:id="@+id/introTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="تطبيق يقوم بإشعارك دائماً بمعلومات قيمة من "
+        android:textColor="#ffffff"
+        android:textSize="20sp"></TextView>
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:background="#72cce9">-->
+
+    <TextView
+        android:id="@+id/aya"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/incoming_message_bg"
+        android:gravity="center"
+        android:text="آيات من الذكر الحكيم"
+        android:textColor="#282828"
+        android:textSize="20dp" />
+    <!--</FrameLayout>-->
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="#72cce9">-->
+
+    <TextView
+        android:id="@+id/hadith"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/incoming_message_bg"
+        android:gravity="center"
+        android:text="أحايث نبوية شريفة "
+        android:textColor="#282828"
+        android:textSize="20dp" />
+    <!--</FrameLayout>-->
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="#72cce9">-->
+
+    <TextView
+        android:id="@+id/do3a"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/incoming_message_bg"
+        android:gravity="center"
+        android:text="أذكار –أدعية "
+        android:textColor="#282828"
+        android:textSize="20dp" />
+    <!--</FrameLayout>-->
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="#72cce9">-->
+
+    <TextView
+        android:id="@+id/sa7aba"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/incoming_message_bg"
+        android:gravity="center"
+        android:text="من أقوال الصحابة"
+        android:textColor="#282828"
+        android:textSize="20dp"></TextView>
+    <!--</FrameLayout>-->
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="#72cce9">-->
+
+    <TextView
+        android:id="@+id/salaf"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/incoming_message_bg"
+        android:gravity="center"
+        android:text="من اقوال السلف "
+        android:textColor="#282828"
+        android:textSize="20dp"></TextView>
+    <!--</FrameLayout>-->
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:background="#72cce9">-->
+
+    <TextView
+        android:id="@+id/m3loma"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/incoming_message_bg"
+        android:gravity="center"
+        android:text="حكم-معلومات عامة"
+        android:textColor="#282828"
+        android:textSize="20dp"></TextView>
+    <!--</FrameLayout>-->
+
+
+</LinearLayout><!--</ScrollView>-->
